@@ -134,12 +134,13 @@ Churn과 다른 변수 간의 상관관계를 정렬해 분석한 그래프입�
 
 ### 🔹 Churn 기준 분포 분석 3종
 이탈자 기준으로 주요 변수 분포를 시각화한 그래프입니다.  
-- 나이 분포: 중장년층(40~60대)의 이탈률이 높음  
+- 나이 분포: 중장년층(50~65대)의 이탈률이 높음  
 - 가입 기간 분포: 가입 초기에 이탈률이 높음  
 - 월 당 활동 참여 횟수: 활동 많은 당원은 이탈 확률 낮음
 
 <p align="center">
-  <img src="images/churn기준_나이분포.png" width="30%" />
-  <img src="images/churn기준_가입기간_분포.png" width="30%" />
-  <img src="images/churn기준_월_당원_참여횟수_분포.png" width="30%" />
+  <img src="images/churn기준_나이분포.png" width="30%" /><br/>
+  <img src="images/churn_기준_가입기간_분포.png" width="30%" style="margin-right: 10px;" />
+  <img src="images/churn기준_월_당원_참여횟수_분포.png" width="30%" style="margin-left: 10px;" />
 </p>
+
