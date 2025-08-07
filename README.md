@@ -139,7 +139,7 @@ Churn과 다른 변수 간의 상관관계를 정렬해 분석한 그래프입�
 - 월 당 활동 참여 횟수: 활동 많은 당원은 이탈 확률 낮음
 
 <p align="center">
-  <img src="images/churn기준 나이분포.png" width="30%" />
-  <img src="images/churn 기준 가입기간 분포.png" width="30%" />
+  <img src="images/churn기준_나이분포.png" width="30%" />
+  <img src="images/churn기준_가입기간_분포.png" width="30%" />
   <img src="images/churn기준_월_당원_참여횟수_분포.png" width="30%" />
 </p>
