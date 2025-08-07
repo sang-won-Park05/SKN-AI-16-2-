@@ -37,6 +37,23 @@
 | 테스트         |           |           |           |           |           |           |           |           |           |     ✅       |     ✅       |
 
 
+## 🛠️ 기술 스택
+
+| 구분             | 도구 및 라이브러리 |
+|------------------|---------------------|
+| 언어             | [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/) |
+| 인터페이스       | [![Streamlit](https://img.shields.io/badge/Streamlit-1.35.0-ff4b4b)](https://streamlit.io/) |
+| 데이터 처리      | [![pandas](https://img.shields.io/badge/pandas-1.5.3-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![NumPy](https://img.shields.io/badge/NumPy-1.24.3-013243?logo=numpy&logoColor=white)](https://numpy.org/) |
+| 시각화           | [![matplotlib](https://img.shields.io/badge/Matplotlib-3.7.0-11557c?logo=plotly&logoColor=white)](https://matplotlib.org/) [![seaborn](https://img.shields.io/badge/Seaborn-0.12.2-6b92b9)](https://seaborn.pydata.org/) |
+| 모델링 (ML) | ![Ridge](https://img.shields.io/badge/RidgeClassifier-sklearn-0c7cd5) ![LogReg](https://img.shields.io/badge/LogisticRegression-sklearn-0c7cd5) ![SGD](https://img.shields.io/badge/SGDClassifier-sklearn-0c7cd5) ![SVC](https://img.shields.io/badge/SVC-sklearn-0c7cd5) ![RF](https://img.shields.io/badge/RandomForest-sklearn-0c7cd5) ![GB](https://img.shields.io/badge/GradientBoosting-sklearn-0c7cd5) ![AdaBoost](https://img.shields.io/badge/AdaBoost-sklearn-0c7cd5) [![XGBoost](https://img.shields.io/badge/XGBoost-1.7-orange)](https://xgboost.readthedocs.io/) [![LightGBM](https://img.shields.io/badge/LightGBM-3.3.5-success)](https://lightgbm.readthedocs.io/) [![CatBoost](https://img.shields.io/badge/CatBoost-1.1-purple)](https://catboost.ai/) |
+| 모델링 (DL) | [![MLP_Keras](https://img.shields.io/badge/MLP_Keras-2.11.0-d00000?logo=keras&logoColor=white)](https://keras.io/) [![RNN_Keras](https://img.shields.io/badge/RNN_Keras-2.11.0-d00000?logo=keras&logoColor=white)](https://keras.io/) [![LSTM_Keras](https://img.shields.io/badge/LSTM_Keras-2.11.0-d00000?logo=keras&logoColor=white)](https://keras.io/) |
+| 모델링 (Clustering) | [![KMeans](https://img.shields.io/badge/KMeans-sklearn-0c7cd5)](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) [![MiniSom](https://img.shields.io/badge/MiniSom-2.3.0-lightgrey)](https://github.com/JustGlowing/minisom) |
+| 하이퍼파라미터 튜닝 | [![Optuna](https://img.shields.io/badge/Optuna-3.4.0-0e7c7b?logo=optuna)](https://optuna.org/) |
+| 기타             | [![SHAP](https://img.shields.io/badge/SHAP-0.43-lightblue)](https://github.com/slundberg/shap) [![joblib](https://img.shields.io/badge/joblib-1.3-lightgrey)](https://joblib.readthedocs.io/) [![pickle](https://img.shields.io/badge/pickle-standard-lightgrey)](https://docs.python.org/3/library/pickle.html) |
+
+
+
+
 ## 🔍 프로젝트 필요성 (배경)
 
 조직(정당 또는 커뮤니티)에서는 당원의 유지율이 핵심 운영 지표가 됩니다.
