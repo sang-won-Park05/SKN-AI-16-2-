@@ -57,28 +57,30 @@
 
 
 ## 📄 데이터셋 정보
-| No. | Column Name           | Non-Null Count | Dtype  | 설명 (선택)        |
-| --- | --------------------- | -------------- | ------ | -------------- |
-| 0   | MemberID              | 10000          | object | 회원 고유 ID       |
-| 1   | Age                   | 10000          | int64  | 나이             |
-| 2   | Gender                | 10000          | object | 성별             |
-| 3   | Region                | 10000          | object | 지역             |
-| 4   | Education             | 10000          | object | 교육 수준          |
-| 5   | Occupation            | 10000          | object | 직업             |
-| 6   | Income\_Decile        | 10000          | int64  | 소득 분위 (1\~10)  |
-| 7   | Income                | 10000          | object | 소득 범주          |
-| 8   | MembershipDuration    | 10000          | int64  | 가입 기간          |
-| 9   | MembershipType        | 10000          | object | 회원 유형          |
-| 10  | Primary\_Support      | 10000          | object | 주요 지지 정책       |
-| 11  | PoliticalActivity     | 10000          | int64  | 정치 활동 수준       |
-| 12  | PartyLoyalty          | 10000          | int64  | 당 충성도          |
-| 13  | PresidentApproval     | 10000          | int64  | 대통령 지지율        |
-| 14  | PolicySatisfaction    | 10000          | int64  | 정책 만족도         |
-| 15  | MediaConsumption      | 10000          | object | 주요 미디어 소비 채널   |
-| 16  | EventImpact           | 10000          | int64  | 특정 이벤트 영향 점수   |
-| 17  | PartyParticipation    | 10000          | int64  | 당 활동 참여 점수     |
-| 18  | FinancialContribution | 10000          | int64  | 정치 후원금         |
-| 19  | Churn                 | 10000          | int64  | 이탈 여부 (1 = 이탈) |
+| No. | Column Name           | Non-Null Count | Dtype  | 설명 (선택)                           |
+| --- | --------------------- | -------------- | ------ | --------------------------------- |
+| 0   | MemberID              | 10000          | object | 회원 고유 ID                          |
+| 1   | Age                   | 10000          | int64  | 나이                                |
+| 2   | Gender                | 10000          | object | 성별                                |
+| 3   | Region                | 10000          | object | 지역                                |
+| 4   | Education             | 10000          | object | 교육 수준                             |
+| 5   | Occupation            | 10000          | object | 직업                                |
+| 6   | Income\_Decile        | 10000          | int64  | 소득 분위 (1\~10)                     |
+| 7   | Income                | 10000          | object | 소득 범주                             |
+| 8   | MembershipDuration    | 10000          | int64  | 가입 기간                             |
+| 9   | MembershipType        | 10000          | object | 회원 유형                             |
+| 10  | Primary\_Support      | 10000          | object | 주요 지지 정책                          |
+| 11  | PoliticalActivity     | 10000          | int64  | 정치 활동 수준                          |
+| 12  | PartyLoyalty          | 10000          | int64  | 당 충성도                             |
+| 13  | PresidentApproval     | 10000          | int64  | 대통령 지지율                           |
+| 14  | PolicySatisfaction    | 10000          | int64  | 정책 만족도                            |
+| 15  | MediaConsumption      | 10000          | object | 주요 미디어 소비 채널                      |
+| 16  | EventImpact           | 10000          | int64  | 특정 이벤트 영향 점수                      |
+| 17  | PartyParticipation    | 10000          | int64  | 당 활동 참여 점수                        |
+| 18  | FinancialContribution | 10000          | int64  | 정치 후원금                            |
+| 19  | Churn                 | 10000          | int64  | 이탈 여부 (1 = 이탈)                    |
+| 20  | **Date**              | 10000          | object | **데이터 수집 월 (2024-01 \~ 2025-07)** |
+
 
 ## 📊 수치형 변수 통계 요약
 | 변수명                   | count   | mean    | std      | min  | 25%  | 50%  | 75%  | max    |
