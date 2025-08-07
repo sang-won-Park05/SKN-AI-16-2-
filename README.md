@@ -244,4 +244,15 @@ Optuna 튜닝 기능을 통해 최적의 성능을 가진 모델 구성이 가�
   <img src="images/모델별_roc.png" width="48%" />
 </p>
 
+### 🔍 모델별 중요 변수
+
+각 모델별로 중요한 특성을 분석하여 예측에 영향을 많이 준 변수를 시각화했습니다.
+
+<p align="center">
+  <img src="images/모델별_중요변수.png" width="90%" />
+</p>
+
+- **CatBoost**: Membership Duration, Event Impact, Age  
+- **Gradient Boosting**: President Approval, Party Loyalty, Event Impact  
+- **Random Forest**: President Approval, Membership Duration, Event Impact
 
